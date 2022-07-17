@@ -27,7 +27,7 @@
     "@types/node": "^14.14.10",
     "agadoo": "^2.0.0",
     "bundlewatch": "^0.3.1",
-    "husky": "^4.3.0"
+    "husky": "^8.0.0"
   },
   "publishConfig": {
     "access": "public"
