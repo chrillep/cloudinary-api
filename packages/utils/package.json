@@ -47,7 +47,7 @@
   ],
   "devDependencies": {
     "@types/jest": "^26.0.15",
-    "@types/node": "^14.14.10",
+    "@types/node": "^16.0.0",
     "agadoo": "^2.0.0",
     "bundlewatch": "^0.3.1",
     "husky": "^4.3.0",
