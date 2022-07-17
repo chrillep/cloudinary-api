@@ -24,7 +24,7 @@
     "@cld-apis/utils": "^0.2.0"
   },
   "devDependencies": {
-    "@types/node": "^14.14.10",
+    "@types/node": "^18.0.5",
     "agadoo": "^2.0.0",
     "bundlewatch": "^0.3.1",
     "husky": "^8.0.1"
