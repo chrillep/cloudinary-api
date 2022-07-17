@@ -20,8 +20,10 @@
     "prepublishOnly": "yarn agadoo && yarn bundlewatch",
     "agadoo": "agadoo dist/"
   },
-  "dependencies": {
-    "@cld-apis/utils": "^0.2.0",
+  "ependencies": {
+    "@cld-apis/utils": "^0.2.0"
+  },
+  "devDependencies": {
     "@types/node": "^14.14.10",
     "agadoo": "^2.0.0",
     "bundlewatch": "^0.3.1",
