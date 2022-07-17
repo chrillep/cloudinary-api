@@ -13,19 +13,17 @@ jobs:
         node: [16, 18]
 
     steps:
+      - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
-
-      - name: checkout
-        uses: actions/checkout@master
+          cache: 'yarn'
 
       - name: Install dependencies
-        run: |
-          yarn
-          cd packages/url && yarn
-          cd ../utils && yarn
-          cd ../../
+        run: yarn install
+
+      - name: Lerna bootstrap
+        run: yarn lerna bootstrap
 
       - name: Test
         run: yarn test:unit-coverage
