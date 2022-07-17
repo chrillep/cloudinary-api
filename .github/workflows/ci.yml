@@ -27,8 +27,8 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Format Check
-        run: yarn lint
+      - name: Lerna bootstrap
+        run: yarn lerna bootstrap
 
       - name: Lint
         run: yarn lint
