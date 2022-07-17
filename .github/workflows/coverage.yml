@@ -31,7 +31,7 @@ jobs:
         run: yarn test:unit-coverage
 
       - name: Publish test coverage report
-        uses: EndBug/add-and-commit@v4
+        uses: EndBug/add-and-commit@v9
         with:
           add: docs
           force: true
