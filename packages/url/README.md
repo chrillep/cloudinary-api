@@ -5,6 +5,7 @@
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
+[![install size](https://packagephobia.com/badge?p=cloudinary-build-url)](https://packagephobia.com/result?p=cloudinary-build-url)
 
 ![Cloudinary URL Builder](https://res.cloudinary.com/mayashavin/image/upload/v1605534519/logos/logo-light.png)(https://cloudinary-build-url.netlify.app)
 

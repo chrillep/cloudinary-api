@@ -1,13 +1,13 @@
 # Cloudinary tree-shakable API
 
 > A set of lighter packages for using Cloudinary
-
 ## `cloudinary-build-url`
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
+[![install size](https://packagephobia.com/badge?p=cloudinary-build-url)](https://packagephobia.com/result?p=cloudinary-build-url)
 
 Build URL for images and videos based on configurations.
 
