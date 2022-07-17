@@ -16,9 +16,9 @@
     "directory": "packages/types"
   },
   "scripts": {
+    "agadoo": "agadoo dist/",
     "bundlewatch": "bundlewatch --config bundlewatch.config.json",
-    "prepublishOnly": "yarn agadoo && yarn bundlewatch",
-    "agadoo": "agadoo dist/"
+    "prepublishOnly": "yarn agadoo && yarn bundlewatch"
   },
   "dependencies": {
     "@cld-apis/utils": "^0.2.0"

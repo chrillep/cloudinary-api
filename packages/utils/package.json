@@ -25,14 +25,14 @@
   ],
   "sideEffects": false,
   "scripts": {
+    "agadoo": "agadoo dist/",
     "build": "npm run clean && npm run compile",
+    "bundlewatch": "bundlewatch --config bundlewatch.config.json",
     "clean": "rm -rf ./dist",
     "compile": "tsc -p tsconfig.build.json && tsc -p tsconfig.json",
-    "test:unit": "jest __tests__ --reporters default",
-    "tsc": "tsc -p tsconfig.build.json && tsc -p tsconfig.json",
-    "bundlewatch": "bundlewatch --config bundlewatch.config.json",
     "prepublishOnly": "yarn build && yarn agadoo && yarn bundlewatch",
-    "agadoo": "agadoo dist/"
+    "test:unit": "jest __tests__ --reporters default",
+    "tsc": "tsc -p tsconfig.build.json && tsc -p tsconfig.json"
   },
   "keywords": [
     "cloudinary",
