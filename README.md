@@ -1,7 +1,6 @@
 # Cloudinary tree-shakable API
 
 > A set of lighter packages for using Cloudinary
-[![install size](https://packagephobia.com/badge?p=@cld-apis/types)](https://packagephobia.com/result?p=@cld-apis/types)
 ## `cloudinary-build-url`
 
 [![npm version][npm-version-src]][npm-version-href]
