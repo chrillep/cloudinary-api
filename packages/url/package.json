@@ -52,7 +52,7 @@
     "jest-html-reporters": "^3.0.0",
     "mkdist": "^0.3.0",
     "ts-jest": "^28.0.0",
-    "typescript": "^4.0.5"
+    "typescript": "^5.0.0"
   },
   "bugs": {
     "url": "https://github.com/mayashavin/cloudinary-api/issues"
