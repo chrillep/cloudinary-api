@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@types/node": "^18.0.5",
-    "agadoo": "^2.0.0",
+    "agadoo": "^3.0.0",
     "bundlewatch": "^0.3.1",
     "husky": "^8.0.1"
   },
